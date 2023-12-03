@@ -18,7 +18,7 @@ func Year23Day1Exercise2() {
 
 	total := 0
 
-	utils.LineReaderStringIterator("./day-23-1.txt", func(line string) {
+	utils.LineReaderStringIterator("./23-1.txt", func(line string) {
 		firstValue := findValueFromLine(line, treeFromStart, false)
 		lastValue := findValueFromLine(line, treeFromEnd, true)
 

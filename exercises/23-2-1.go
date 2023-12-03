@@ -18,7 +18,7 @@ var colorConstraints = map[string]int{
 func Year23Day2Exercise1() {
 	total := 0
 
-	utils.LineReaderStringIterator("./day-23-2.txt", func(line string) {
+	utils.LineReaderStringIterator("./23-2.txt", func(line string) {
 		game := strings.Split(line, ": ")
 
 		rounds := strings.Split(game[1], "; ")
