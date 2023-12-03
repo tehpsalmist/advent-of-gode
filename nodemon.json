@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git"
+  ],
+  "execMap": {
+    "go": "go run"
+  },
+  "signal": "SIGTERM",
+  "watch": [
+    "**/*.go"
+  ],
+  "ext": "go"
+}
