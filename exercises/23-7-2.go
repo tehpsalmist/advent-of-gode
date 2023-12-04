@@ -5,7 +5,7 @@ import (
 )
 
 func Year23Day7Exercise2() {
-	total := 0
+	total := int64(0)
 
 	fmt.Println(total)
 }
