@@ -11,10 +11,10 @@ func Year23Day4Exercise2() {
 	total := 0
 
 	// Assuming that all candidate lists are unique, maximum matches will be 10.
-	// Size 11 slice allows us to deque the first and still have room in the slice
-	// to avoid index out of range problems. Values initialize at 1 because we always
-	// start with one copy of that scratchcard to evaluate.
-	copyQueue := []int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
+	// Size 10 slice allows us to deque the first, replace with a new one at the end
+	// and still have room in the slice to avoid index out of range problems when incrementing copy counters.
+	// Values initialize at 1 because we always start with one copy of that scratchcard to evaluate.
+	copyQueue := []int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
 
 	lineCount := 0
 	utils.LineReaderStringIterator("./23-4.txt", func(line string) {
