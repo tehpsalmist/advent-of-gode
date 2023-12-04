@@ -14,4 +14,6 @@ nodemon main.go 23-1-1
 
 in the project root, where the final arg follows the pattern {YY}-{day}-{exercise} (YY = 2-digit year, day = 1-25, exercise = 1-2).
 
+### Have me write more code for you
+
 If you want to hire me on a project or just connect to shoot the breeze, [hit me up](https://8thday.dev/contact)!
