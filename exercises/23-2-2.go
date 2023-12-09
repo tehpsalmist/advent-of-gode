@@ -12,7 +12,7 @@ import (
 func Year23Day2Exercise2() {
 	total := int64(0)
 
-	utils.LineReaderStringIterator("./23-2.txt", func(line string) {
+	utils.LineReaderStringIterator("./inputs/23-2.txt", func(line string) {
 		game := strings.Split(line, ": ")
 
 		redMax := int64(0)

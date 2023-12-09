@@ -12,7 +12,7 @@ import (
 func Year23Day5Exercise2() {
 	bestSeed := int64(-1)
 
-	input := utils.LineReaderString("./23-5-test.txt")
+	input := utils.LineReaderString("./inputs/23-5-test.txt")
 
 	sections := strings.Split(strings.Join(input, "\n"), "\n\n")
 

@@ -28,7 +28,7 @@ func getLocation(val int64, farm *map[string]NutrientMapping) int64 {
 }
 
 func Year23Day5Exercise1() {
-	input := utils.LineReaderString("./23-5.txt")
+	input := utils.LineReaderString("./inputs/23-5.txt")
 
 	sections := strings.Split(strings.Join(input, "\n"), "\n\n")
 

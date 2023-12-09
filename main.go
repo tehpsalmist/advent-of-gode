@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"time"
 
 	"8thday.dev/aog/exercises"
 )
 
 func main() {
+	start := time.Now()
 	switch os.Args[1] {
 	case "23-1-1":
 		exercises.Year23Day1Exercise1()
@@ -115,4 +117,8 @@ func main() {
 
 		fmt.Printf("No code found for Day %s, Exercise %s in Year 20%s", exerciseData[1], exerciseData[2], exerciseData[0])
 	}
+
+	duration := time.Since(start)
+
+	fmt.Println("timing:", duration)
 }

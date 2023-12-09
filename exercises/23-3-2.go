@@ -11,7 +11,7 @@ import (
 func Year23Day3Exercise2() {
 	total := int64(0)
 
-	schematic := utils.LineReaderString("./23-3.txt")
+	schematic := utils.LineReaderString("./inputs/23-3.txt")
 
 	for y, line := range schematic {
 		for x, char := range line {

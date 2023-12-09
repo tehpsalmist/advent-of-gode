@@ -17,7 +17,7 @@ func Year23Day4Exercise2() {
 	copyQueue := []int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
 
 	lineCount := 0
-	utils.LineReaderStringIterator("./23-4.txt", func(line string) {
+	utils.LineReaderStringIterator("./inputs/23-4.txt", func(line string) {
 		lineCount++
 		// split line by |
 		parts := strings.Split(line, "|")

@@ -10,7 +10,7 @@ import (
 func Year23Day4Exercise1() {
 	total := 0
 
-	utils.LineReaderStringIterator("./23-4.txt", func(line string) {
+	utils.LineReaderStringIterator("./inputs/23-4.txt", func(line string) {
 		// split line by |
 		parts := strings.Split(line, "|")
 
